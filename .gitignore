@@ -1,3 +1,10 @@
-/conf/token.conf
+/conf/prod_token.conf
+/conf/dev_token.conf
+
 /.idea
+
 /src/__pycache__
+/__pycache__
+
+/log
+/cache
