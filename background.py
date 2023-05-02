@@ -1,3 +1,5 @@
+"""This file contains background HTTP Server for deployment"""
+
 from flask import Flask
 from threading import Thread
 

@@ -1,15 +1,18 @@
 {
-  "YDL": {
-    "format": "bestaudio/best",
-    "noplaylist": "True",
-    "cachedir": "",
-    "outtmpl": "",
-    "postprocessors": [
-      {
-        "key": "FFmpegExtractAudio",
-        "preferredcodec": "mp3",
-        "preferredquality": "192"
-      }
-    ]
-  }
+    "Logger": {
+        "logdir": ""
+    }, 
+    "YDL": {
+        "cachedir": "",
+        "format": "bestaudio/best", 
+        "noplaylist": "True", 
+        "outtmpl": "",
+        "postprocessors": [
+            {
+                "key": "FFmpegExtractAudio", 
+                "preferredcodec": "mp3", 
+                "preferredquality": "192"
+            }
+        ]
+    }
 }
