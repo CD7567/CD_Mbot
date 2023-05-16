@@ -1,12 +1,12 @@
 {
     "Logger": {
-        "logdir": ""
+        "logdir": "/home/cd7567/Documents/MIPT/IT/CD_Mbot/log"
     }, 
     "YDL": {
-        "cachedir": "",
+        "cachedir": "/home/cd7567/Documents/MIPT/IT/CD_Mbot/cache", 
         "format": "bestaudio/best", 
         "noplaylist": "True", 
-        "outtmpl": "",
+        "outtmpl": "/home/cd7567/Documents/MIPT/IT/CD_Mbot/cache/%(title)s.%(ext)s", 
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio", 
