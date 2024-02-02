@@ -1,0 +1,18 @@
+{
+    "Logger": {
+        "logdir": ""
+    }, 
+    "YDL": {
+        "cachedir": "",
+        "format": "bestaudio/best", 
+        "noplaylist": "True", 
+        "outtmpl": "",
+        "postprocessors": [
+            {
+                "key": "FFmpegExtractAudio", 
+                "preferredcodec": "mp3", 
+                "preferredquality": "192"
+            }
+        ]
+    }
+}

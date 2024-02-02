@@ -1,0 +1,5 @@
+aiogram==2.25.1
+Faker==17.0.0
+Flask==2.3.1
+yt-dlp==2023.3.4
+ytmusicapi==1.0.2
